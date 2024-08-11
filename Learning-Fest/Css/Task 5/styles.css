@@ -1,0 +1,12 @@
+.main{
+    background-color: rgb(92, 82, 158);
+   padding: 20px 20px 50px 20px;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    border: 20px solid black;
+    margin: 20px auto;
+}
+p{
+    text-align: center;
+}

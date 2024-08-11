@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+
+
+
+
+a {
+	background: transparent;
+}
+
+input {
+	line-height: normal;
+}
+
+
+
+body {
+	font-weight: normal;
+	line-height: 1;
+	word-wrap: break-word;
+}
+
+.row {
+	width: 94%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+
+
+
+.row .row {
+	width: auto;
+	max-width: none;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+
+
+
+.contact-info{
+	display: flex;
+	justify-content: space-around;
+}
+

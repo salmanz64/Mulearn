@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5</title>
+</head>
+<script>
+    fetch("persons.json").then(function(response){
+        return response.json();
+    }).then(function (obj){
+        for(let i=0;i<obj.length;i++){
+            let name = obj[i].name;
+            let age = obj[i].age;
+            let personDiv = document.getElementById('list');
+            personDiv.innerHTML += `<li>Name: ${name}<br> Age: ${age}</li><br>`;
+        }
+    });
+    
+</script>
+<body>
+    <h3>list of names and age are:</h3>
+    <ul id="list"> </ul>
+</body>
+</html>
