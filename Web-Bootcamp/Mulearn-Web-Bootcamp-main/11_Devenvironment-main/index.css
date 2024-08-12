@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.home{
+    background-color: blue;
+    color: white;
+    flex: 1 1 50%;
+}
+
+.away{
+    background-color: rgb(18, 22, 22);
+    color: white;
+    flex: 1 1 50%;
+}

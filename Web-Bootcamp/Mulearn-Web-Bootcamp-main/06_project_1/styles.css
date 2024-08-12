@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/images1.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+img{width: 250px;
+    text-align: center;
+border-radius: 150px;
+border:3px solid grey;
+}
+.image{
+    width: 200px;
+}
+li{
+    margin-bottom: 25px;
+    font-size: 15px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec1:hover, .sec2:hover, .sec3:hover{
+    text-align: center;
+width: 250px;
+color: white;
+height: 250px;
+box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.3);
+}
+#name{
+margin-right:50px
+}
+.header{
+    padding-top: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 358px;
+
+    
+    
+}
+.words{
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    padding-right: 80px;
+}
+.container{
+    color: white;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
