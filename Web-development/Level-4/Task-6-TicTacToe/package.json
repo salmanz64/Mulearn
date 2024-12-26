@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://salmanz64.github.io/Mulearn/Webdevelopment/Level-4/Task-6-TicTacToe",
+  "homepage": "https://salmanz64.github.io/Mulearn/Web-development/Level-4/Task-6-TicTacToe",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
