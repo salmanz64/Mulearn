@@ -7,8 +7,7 @@ import './styles.css'
     
   }
 
-
-export default function Board(){
+ function Board(){
 
   const [squares,setsquares]= useState(Array(9).fill(null))
   const [xisNext,setXisNext] = useState(true)
@@ -79,4 +78,22 @@ function calculateWinner(squares){
     }
   }
   return null;
+}
+
+
+
+export default function Game() {
+  const [xIsNext, setXIsNext] = useState(true);
+  const [history, setHistory] = useState([Array(9).fill(null)]);
+  const currentSquares = history[history.length-1]
+  return (
+    <div className="game">
+      <div className="game-board">
+        <Board />
+      </div>
+      <div className="game-info">
+        <ol>{/*TODO*/}</ol>
+      </div>
+    </div>
+  );
 }
